@@ -36,7 +36,7 @@ export default function Showreel() {
             <img 
               src="/IMG_1436.JPEG" 
               alt="Cinematic Showreel Placeholder" 
-              className="absolute inset-0 w-full h-full object-cover filter grayscale brightness-50 group-hover:scale-105 group-hover:brightness-75 transition-all duration-1000"
+              className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:scale-105 group-hover:brightness-75 transition-all duration-1000"
             />
             
             <div className="relative z-20 w-20 h-20 md:w-24 md:h-24 rounded-full border border-brand-gold/50 flex items-center justify-center bg-brand-black/30 backdrop-blur-sm group-hover:bg-brand-gold group-hover:border-brand-gold transition-colors duration-500">

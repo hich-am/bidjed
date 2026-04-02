@@ -4,7 +4,6 @@ export default function Hero() {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-brand-navy">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-black/40 via-brand-black/20 to-brand-black/90 z-10" />
         <motion.img 
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}

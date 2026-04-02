@@ -37,11 +37,10 @@ export default function Portfolio() {
                 className={`relative group cursor-pointer overflow-hidden break-inside-avoid w-full ${img.aspect}`}
                 onClick={() => setLightboxImage(img.src)}
               >
-                <div className="absolute inset-0 bg-brand-black/20 group-hover:bg-transparent transition-all duration-500 z-10" />
                 <img 
                   src={img.src} 
                   alt="Portfolio Piece" 
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 filter grayscale hover:grayscale-0"
+                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
               </motion.div>
             ))}

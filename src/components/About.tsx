@@ -18,7 +18,7 @@ export default function About() {
               <img 
                 src="/IMG_2487.JPG.jpeg" 
                 alt="Bidjed Portrait" 
-                className="relative z-10 w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
+                className="relative z-10 w-full h-full object-cover transition-all duration-700"
               />
             </div>
           </motion.div>
