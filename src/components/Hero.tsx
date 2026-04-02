@@ -29,10 +29,10 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6">
-            <a href="#portfolio" className="border border-brand-gold bg-brand-gold text-brand-black px-8 py-4 text-xs tracking-widest uppercase hover:bg-transparent hover:text-brand-gold transition-all text-center">
+            <a href="#portfolio" className="border border-brand-gold bg-brand-gold text-brand-ivory px-8 py-4 text-xs tracking-widest uppercase hover:bg-transparent hover:text-brand-gold transition-all text-center">
               View Portfolio
             </a>
-            <a href="#booking" className="border border-white/30 backdrop-blur-sm px-8 py-4 text-xs tracking-widest uppercase hover:border-brand-gold hover:text-brand-gold transition-all text-center">
+            <a href="#booking" className="border border-brand-ivory/30 backdrop-blur-sm px-8 py-4 text-xs tracking-widest uppercase hover:border-brand-gold hover:text-brand-gold transition-all text-center">
               Book Talent
             </a>
           </div>

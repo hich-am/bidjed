@@ -3,7 +3,7 @@ import { Mail } from 'lucide-react';
 
 export default function Booking() {
   return (
-    <section id="booking" className="py-32 bg-black text-brand-ivory border-t border-brand-gold/20">
+    <section id="booking" className="py-32 bg-brand-black text-brand-ivory border-t border-brand-gold/20">
       <div className="container mx-auto px-6 md:px-12 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
           
@@ -20,14 +20,14 @@ export default function Booking() {
             <div className="space-y-8 mt-16">
               <a href="mailto:booking@bidjed.com" className="flex items-center gap-6 group w-max">
                 <div className="w-12 h-12 rounded-full border border-brand-gold/30 flex items-center justify-center group-hover:border-brand-gold group-hover:bg-brand-gold transition-all duration-300">
-                  <Mail strokeWidth={1} className="w-5 h-5 group-hover:text-brand-black transition-colors" />
+                  <Mail strokeWidth={1} className="w-5 h-5 group-hover:text-brand-ivory transition-colors" />
                 </div>
                 <span className="text-sm tracking-widest uppercase text-brand-light/80 group-hover:text-brand-ivory transition-colors">booking@bidjed.com</span>
               </a>
               
               <a href="#" className="flex items-center gap-6 group w-max">
                 <div className="w-12 h-12 rounded-full border border-brand-gold/30 flex items-center justify-center group-hover:border-brand-gold group-hover:bg-brand-gold transition-all duration-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:text-brand-black transition-colors"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:text-brand-ivory transition-colors"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                 </div>
                 <span className="text-sm tracking-widest uppercase text-brand-light/80 group-hover:text-brand-ivory transition-colors">@bidjedbel</span>
               </a>
@@ -79,7 +79,7 @@ export default function Booking() {
                 />
               </div>
 
-              <button type="button" className="w-full border border-brand-gold bg-brand-gold text-brand-black py-4 text-xs tracking-widest uppercase hover:bg-transparent hover:text-brand-gold transition-all mt-8">
+              <button type="button" className="w-full border border-brand-gold bg-brand-gold text-brand-ivory py-4 text-xs tracking-widest uppercase hover:bg-transparent hover:text-brand-gold transition-all mt-8">
                 Submit Inquiry
               </button>
             </form>

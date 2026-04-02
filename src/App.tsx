@@ -9,7 +9,7 @@ import Footer from './components/Footer.tsx';
 
 function App() {
   return (
-    <div className="min-h-screen bg-brand-black text-brand-light font-sans selection:bg-brand-gold selection:text-brand-black">
+    <div className="min-h-screen bg-brand-black text-brand-light font-sans selection:bg-brand-gold selection:text-brand-ivory">
       <Navbar />
       <main>
         <Hero />

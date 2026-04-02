@@ -40,7 +40,7 @@ export default function Showreel() {
             />
             
             <div className="relative z-20 w-20 h-20 md:w-24 md:h-24 rounded-full border border-brand-gold/50 flex items-center justify-center bg-brand-black/30 backdrop-blur-sm group-hover:bg-brand-gold group-hover:border-brand-gold transition-colors duration-500">
-              <Play className="text-brand-ivory group-hover:text-brand-black w-8 h-8 md:w-10 md:h-10 ml-2 transition-colors duration-500" strokeWidth={1} />
+              <Play className="text-brand-ivory group-hover:text-brand-ivory w-8 h-8 md:w-10 md:h-10 ml-2 transition-colors duration-500" strokeWidth={1} />
             </div>
           </div>
         </motion.div>

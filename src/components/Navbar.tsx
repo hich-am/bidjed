@@ -29,7 +29,7 @@ export default function Navbar() {
           <a href="#about" className="hover:text-brand-gold transition-colors">Presence</a>
           <a href="#portfolio" className="hover:text-brand-gold transition-colors">Portfolio</a>
           <a href="#showreel" className="hover:text-brand-gold transition-colors">Cinema</a>
-          <a href="#booking" className="border border-brand-gold/50 px-6 py-2.5 hover:bg-brand-gold hover:text-brand-black transition-colors rounded-sm">Book</a>
+          <a href="#booking" className="border border-brand-gold/50 px-6 py-2.5 hover:bg-brand-gold hover:text-brand-ivory transition-colors rounded-sm">Book</a>
         </div>
       </div>
     </motion.nav>

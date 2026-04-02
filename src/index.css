@@ -2,10 +2,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-navy: #0F172A;
-  --color-brand-black: #050505;
-  --color-brand-ivory: #FFFFF0;
-  --color-brand-light: #FAFAFA;
+  --color-brand-navy: #f3f3f3;
+  --color-brand-black: #fafafa;
+  --color-brand-ivory: #050505;
+  --color-brand-light: #4a4a4a;
   --color-brand-gold: #C5A059;
   --color-brand-gold-muted: #8A7242;
 
