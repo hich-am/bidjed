@@ -5,13 +5,16 @@ export default function Footer() {
         <div className="text-2xl font-serif text-brand-ivory tracking-[0.25em] uppercase">
           Bidjed
         </div>
-        <div className="flex gap-8 text-xs tracking-widest text-brand-light/60 uppercase">
+        <div className="flex flex-wrap justify-center gap-6 md:gap-8 text-xs tracking-widest text-brand-light/60 uppercase">
           <a href="#about" className="hover:text-brand-gold transition-colors">About</a>
           <a href="#portfolio" className="hover:text-brand-gold transition-colors">Portfolio</a>
           <a href="#booking" className="hover:text-brand-gold transition-colors">Contact</a>
+          <a href="https://www.instagram.com/bidjed_belmeliani/" target="_blank" rel="noreferrer" className="hover:text-brand-gold transition-colors">Instagram</a>
+          <a href="mailto:bidjedbelmeliani@gmail.com" className="hover:text-brand-gold transition-colors">Email</a>
         </div>
-        <div className="text-xs tracking-widest text-brand-light/40 uppercase">
-          © {new Date().getFullYear()} All Rights Reserved.
+        <div className="text-xs tracking-widest text-brand-light/40 uppercase flex flex-col items-center md:items-end gap-2 text-center md:text-right mt-8 md:mt-0">
+          <span>© {new Date().getFullYear()} All Rights Reserved.</span>
+          <span className="text-xs text-brand-light/50 tracking-[0.2em] lowercase">made by <a href="https://heeshvisuals.vercel.app" target="_blank" rel="noreferrer" className="hover:text-brand-gold transition-colors italic">heesh</a></span>
         </div>
       </div>
     </footer>

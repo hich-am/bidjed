@@ -2,49 +2,31 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
-const categories = ["All", "Luxury & Editorial", "Formal & Suits", "Cinematic Stills", "Runway"];
-
 const portfolioImages = [
-  { id: 1, category: "Luxury & Editorial", src: "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?q=80&w=2600&auto=format&fit=crop", aspect: "aspect-[3/4]" },
-  { id: 2, category: "Formal & Suits", src: "https://images.unsplash.com/photo-1592878904946-b3cd8ae243d0?q=80&w=2574&auto=format&fit=crop", aspect: "aspect-square" },
-  { id: 3, category: "Cinematic Stills", src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=2574&auto=format&fit=crop", aspect: "aspect-[16/9]" },
-  { id: 4, category: "Runway", src: "https://images.unsplash.com/photo-1508317469940-e3de49ba902e?q=80&w=2600&auto=format&fit=crop", aspect: "aspect-[3/4]" },
-  { id: 5, category: "Luxury & Editorial", src: "https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?q=80&w=2600&auto=format&fit=crop", aspect: "aspect-square" },
-  { id: 6, category: "Formal & Suits", src: "https://images.unsplash.com/photo-1550246140-5119ae4790b8?q=80&w=2600&auto=format&fit=crop", aspect: "aspect-[3/4]" },
+  { id: 1, src: "/IMG_0311.JPG.jpeg", aspect: "aspect-[3/4]" },
+  { id: 2, src: "/IMG_0315.JPG.jpeg", aspect: "aspect-square" },
+  { id: 3, src: "/IMG_0326.JPG.jpeg", aspect: "aspect-[16/9]" },
+  { id: 4, src: "/IMG_0388.PNG", aspect: "aspect-[3/4]" },
+  { id: 5, src: "/IMG_1561.JPG.jpeg", aspect: "aspect-square" },
+  { id: 6, src: "/IMG_2587.JPG.jpeg", aspect: "aspect-[3/4]" },
+  { id: 7, src: "/IMG_3451.JPG.jpeg", aspect: "aspect-[16/9]" },
+  { id: 8, src: "/IMG_3452.JPG.jpeg", aspect: "aspect-square" },
+  { id: 9, src: "/IMG_4914.JPG.jpeg", aspect: "aspect-[3/4]" },
 ];
 
 export default function Portfolio() {
-  const [activeCategory, setActiveCategory] = useState("All");
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
-
-  const filteredImages = activeCategory === "All" 
-    ? portfolioImages 
-    : portfolioImages.filter(img => img.category === activeCategory);
 
   return (
     <section id="portfolio" className="py-32 bg-brand-black border-t border-brand-gold/10">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+        <div className="mb-20">
           <h2 className="text-4xl md:text-6xl font-serif text-brand-ivory uppercase tracking-wide">Editorial<br />Gallery</h2>
-          
-          <div className="flex flex-wrap gap-4 md:gap-8 justify-start md:justify-end">
-            {categories.map((cat) => (
-              <button 
-                key={cat}
-                onClick={() => setActiveCategory(cat)}
-                className={`text-xs tracking-[0.15em] uppercase transition-colors duration-300 ${
-                  activeCategory === cat ? 'text-brand-gold border-b border-brand-gold' : 'text-brand-light/50 hover:text-brand-ivory'
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
         </div>
 
         <motion.div layout className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
           <AnimatePresence>
-            {filteredImages.map((img) => (
+            {portfolioImages.map((img) => (
               <motion.div
                 layout
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -58,7 +40,7 @@ export default function Portfolio() {
                 <div className="absolute inset-0 bg-brand-black/20 group-hover:bg-transparent transition-all duration-500 z-10" />
                 <img 
                   src={img.src} 
-                  alt={img.category} 
+                  alt="Portfolio Piece" 
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 filter grayscale hover:grayscale-0"
                 />
               </motion.div>

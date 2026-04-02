@@ -16,7 +16,7 @@ export default function About() {
             <div className="relative w-full max-w-md aspect-[3/4]">
               <div className="absolute -inset-4 border border-brand-gold/30 translate-x-4 translate-y-4" />
               <img 
-                src="https://images.unsplash.com/photo-1549471013-3364d7ce50ea?q=80&w=2070&auto=format&fit=crop" 
+                src="/IMG_2487.JPG.jpeg" 
                 alt="Bidjed Portrait" 
                 className="relative z-10 w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
               />

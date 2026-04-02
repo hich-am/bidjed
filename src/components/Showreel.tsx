@@ -34,7 +34,7 @@ export default function Showreel() {
           
           <div className="relative w-full h-full bg-brand-black overflow-hidden z-10 flex items-center justify-center">
             <img 
-              src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=2659&auto=format&fit=crop" 
+              src="/IMG_1436.JPEG" 
               alt="Cinematic Showreel Placeholder" 
               className="absolute inset-0 w-full h-full object-cover filter grayscale brightness-50 group-hover:scale-105 group-hover:brightness-75 transition-all duration-1000"
             />

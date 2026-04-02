@@ -9,7 +9,7 @@ export default function Hero() {
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 10, ease: 'easeOut' }}
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop" 
+          src="/IMG_3450.JPG.jpeg" 
           alt="Bidjed Belmeliani - Model & Actor" 
           className="w-full h-full object-cover object-top opacity-80"
         />
