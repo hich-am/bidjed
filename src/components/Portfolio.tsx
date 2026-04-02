@@ -9,7 +9,7 @@ const portfolioImages = [
   { id: 4, src: "/IMG_0388.PNG", aspect: "aspect-[3/4]" },
   { id: 5, src: "/IMG_1561.JPG.jpeg", aspect: "aspect-square" },
   { id: 6, src: "/IMG_2587.JPG.jpeg", aspect: "aspect-[3/4]" },
-  { id: 7, src: "/IMG_3451.JPG.jpeg", aspect: "aspect-[16/9]" },
+  { id: 7, src: "/IMG_3451.JPG.jpeg", aspect: "aspect-[16/9]", position: "object-top" },
   { id: 8, src: "/IMG_3452.JPG.jpeg", aspect: "aspect-square" },
   { id: 9, src: "/IMG_4914.JPG.jpeg", aspect: "aspect-[3/4]" },
 ];
@@ -40,7 +40,7 @@ export default function Portfolio() {
                 <img 
                   src={img.src} 
                   alt="Portfolio Piece" 
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                  className={`w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 ${img.position || 'object-center'}`}
                 />
               </motion.div>
             ))}

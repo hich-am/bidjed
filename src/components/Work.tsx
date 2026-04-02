@@ -1,11 +1,9 @@
 import { motion } from 'framer-motion';
 
 const experiences = [
-  { title: "Luxury & Fashion Campaigns", role: "Lead Model", year: "2023 - Present" },
-  { title: "Hotel & Lifestyle Ads", role: "Actor / Model", year: "2022 - Present" },
-  { title: "Commercial Acting", role: "Various Brands", year: "2021 - Present" },
-  { title: "Feature Film & Theatre", role: "Supporting Actor", year: "2020 - 2023" },
-  { title: "Brand Ambassadorships", role: "Global Representative", year: "2022 - Present" },
+  { title: "Fashion", role: "Various Brands", year: "2026 - Present" },
+  { title: "Cinematic Visuals", role: "Various Brands", year: "2026 - Present" },
+  { title: "Performance-based Content", role: "Various Brands", year: "2026 - Present" },
 ];
 
 export default function Work() {

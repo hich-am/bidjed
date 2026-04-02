@@ -4,8 +4,8 @@ import { Mail } from 'lucide-react';
 export default function Booking() {
   return (
     <section id="booking" className="py-32 bg-brand-black text-brand-ivory border-t border-brand-gold/20">
-      <div className="container mx-auto px-6 md:px-12 max-w-6xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+      <div className="container mx-auto px-6 md:px-12 max-w-[1400px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 lg:gap-32 xl:gap-48">
           
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
@@ -14,7 +14,7 @@ export default function Booking() {
             transition={{ duration: 1 }}
           >
             <h2 className="text-5xl md:text-6xl lg:text-7xl font-serif leading-tight uppercase tracking-wide mb-12">
-              Available for <span className="text-brand-gold italic normal-case font-light">international</span><br/>bookings & collaborations.
+              Available for <span className="text-brand-gold italic normal-case font-light">bookings</span> & <span className="text-brand-gold italic normal-case font-light">collaborations</span>.
             </h2>
             
             <div className="space-y-8 mt-16">
@@ -22,14 +22,14 @@ export default function Booking() {
                 <div className="w-12 h-12 rounded-full border border-brand-gold/30 flex items-center justify-center group-hover:border-brand-gold group-hover:bg-brand-gold transition-all duration-300">
                   <Mail strokeWidth={1} className="w-5 h-5 group-hover:text-brand-ivory transition-colors" />
                 </div>
-                <span className="text-sm tracking-widest uppercase text-brand-light/80 group-hover:text-brand-ivory transition-colors">bidjedbelmeliani@gmail.com</span>
+                <span className="text-sm tracking-widest text-brand-light/80 group-hover:text-brand-ivory transition-colors">bidjedbelmeliani@gmail.com</span>
               </a>
               
               <a href="https://www.instagram.com/bidjed_belmeliani/" target="_blank" rel="noreferrer" className="flex items-center gap-6 group w-max">
                 <div className="w-12 h-12 rounded-full border border-brand-gold/30 flex items-center justify-center group-hover:border-brand-gold group-hover:bg-brand-gold transition-all duration-300">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:text-brand-ivory transition-colors"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                 </div>
-                <span className="text-sm tracking-widest uppercase text-brand-light/80 group-hover:text-brand-ivory transition-colors">@bidjed_belmeliani</span>
+                <span className="text-sm tracking-widest text-brand-light/80 group-hover:text-brand-ivory transition-colors">@bidjed_belmeliani</span>
               </a>
             </div>
           </motion.div>
