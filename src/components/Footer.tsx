@@ -6,9 +6,10 @@ export default function Footer() {
           Bidjed
         </div>
         <div className="flex flex-wrap justify-center gap-6 md:gap-8 text-xs tracking-widest text-brand-light/60 uppercase">
-          <a href="#about" className="hover:text-brand-gold transition-colors">About</a>
+          <a href="#about" className="hover:text-brand-gold transition-colors">Presence</a>
           <a href="#portfolio" className="hover:text-brand-gold transition-colors">Portfolio</a>
-          <a href="#booking" className="hover:text-brand-gold transition-colors">Contact</a>
+          <a href="#work" className="hover:text-brand-gold transition-colors">Experience</a>
+          <a href="#booking" className="hover:text-brand-gold transition-colors">Book</a>
           <a href="https://www.instagram.com/bidjed_belmeliani/" target="_blank" rel="noreferrer" className="hover:text-brand-gold transition-colors">Instagram</a>
           <a href="mailto:bidjedbelmeliani@gmail.com" className="hover:text-brand-gold transition-colors">Email</a>
         </div>

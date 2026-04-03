@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className={`hidden md:flex gap-8 items-center text-xs tracking-[0.2em] uppercase transition-colors duration-300 ${scrolled ? 'text-brand-light/80' : 'text-white/80'}`}>
           <a href="#about" className="hover:text-brand-gold transition-colors">Presence</a>
           <a href="#portfolio" className="hover:text-brand-gold transition-colors">Portfolio</a>
-          <a href="#showreel" className="hover:text-brand-gold transition-colors">Cinema</a>
+          <a href="#work" className="hover:text-brand-gold transition-colors">Experience</a>
           <a href="#booking" className={`border border-brand-gold/50 px-6 py-2.5 transition-colors rounded-sm hover:bg-brand-gold hover:text-brand-ivory ${scrolled ? '' : 'text-white'}`}>Book</a>
         </div>
       </div>
