@@ -41,28 +41,34 @@ export default function Booking() {
             transition={{ duration: 1, delay: 0.2 }}
             className="bg-brand-navy p-8 md:p-12 border border-brand-gold/10"
           >
-            <form className="space-y-8">
+            <form action="mailto:bidjedbelmeliani@gmail.com" method="POST" encType="text/plain" className="space-y-8">
               <div className="space-y-2">
-                <label className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Name</label>
+                <label htmlFor="name" className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Name</label>
                 <input 
+                  id="name"
+                  name="Name"
                   type="text" 
                   className="w-full bg-transparent border-b border-brand-light/20 pb-4 text-brand-ivory focus:outline-none focus:border-brand-gold transition-colors font-sans text-sm tracking-wider" 
                   placeholder="Your Full Name"
+                  required
                 />
               </div>
               
               <div className="space-y-2">
-                <label className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Email</label>
+                <label htmlFor="email" className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Email</label>
                 <input 
+                  id="email"
+                  name="Email"
                   type="email" 
                   className="w-full bg-transparent border-b border-brand-light/20 pb-4 text-brand-ivory focus:outline-none focus:border-brand-gold transition-colors font-sans text-sm tracking-wider" 
                   placeholder="your@email.com"
+                  required
                 />
               </div>
 
               <div className="space-y-2">
-                <label className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Inquiry Type</label>
-                <select className="w-full bg-transparent border-b border-brand-light/20 pb-4 text-brand-ivory focus:outline-none focus:border-brand-gold transition-colors font-sans text-sm tracking-wider appearance-none">
+                <label htmlFor="inquiryType" className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Inquiry Type</label>
+                <select id="inquiryType" name="Inquiry Type" className="w-full bg-transparent border-b border-brand-light/20 pb-4 text-brand-ivory focus:outline-none focus:border-brand-gold transition-colors font-sans text-sm tracking-wider appearance-none">
                   <option className="bg-brand-navy text-brand-ivory" value="campaign">Fashion/Luxury Campaign</option>
                   <option className="bg-brand-navy text-brand-ivory" value="film">Film/Acting Role</option>
                   <option className="bg-brand-navy text-brand-ivory" value="runway">Runway Booking</option>
@@ -71,15 +77,18 @@ export default function Booking() {
               </div>
               
               <div className="space-y-2">
-                <label className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Message Details</label>
+                <label htmlFor="message" className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Message Details</label>
                 <textarea 
+                  id="message"
+                  name="Message"
                   rows={4}
                   className="w-full bg-transparent border-b border-brand-light/20 pb-4 text-brand-ivory focus:outline-none focus:border-brand-gold transition-colors font-sans text-sm tracking-wider resize-none mt-2" 
                   placeholder="Tell us about the project..."
+                  required
                 />
               </div>
 
-              <button type="button" className="w-full border border-brand-gold bg-brand-gold text-brand-ivory py-4 text-xs tracking-widest uppercase hover:bg-transparent hover:text-brand-gold transition-all mt-8">
+              <button type="submit" className="w-full border border-brand-gold bg-brand-gold text-brand-ivory py-4 text-xs tracking-widest uppercase hover:bg-transparent hover:text-brand-gold transition-all mt-8">
                 Submit Inquiry
               </button>
             </form>
