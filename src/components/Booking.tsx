@@ -18,11 +18,11 @@ export default function Booking() {
             </h2>
             
             <div className="space-y-8 mt-16">
-              <a href="mailto:bidjedbelmeliani@gmail.com" className="flex items-center gap-6 group w-max">
+              <a href="mailto:Sevenbidjed@gmail.com" className="flex items-center gap-6 group w-max">
                 <div className="w-12 h-12 rounded-full border border-brand-gold/30 flex items-center justify-center group-hover:border-brand-gold group-hover:bg-brand-gold transition-all duration-300">
                   <Mail strokeWidth={1} className="w-5 h-5 group-hover:text-brand-ivory transition-colors" />
                 </div>
-                <span className="text-sm tracking-widest text-brand-light/80 group-hover:text-brand-ivory transition-colors">bidjedbelmeliani@gmail.com</span>
+                <span className="text-sm tracking-widest text-brand-light/80 group-hover:text-brand-ivory transition-colors">Sevenbidjed@gmail.com</span>
               </a>
               
               <a href="https://www.instagram.com/bidjed_belmeliani/" target="_blank" rel="noreferrer" className="flex items-center gap-6 group w-max">
@@ -41,7 +41,7 @@ export default function Booking() {
             transition={{ duration: 1, delay: 0.2 }}
             className="bg-brand-navy p-8 md:p-12 border border-brand-gold/10"
           >
-            <form action="mailto:bidjedbelmeliani@gmail.com" method="POST" encType="text/plain" className="space-y-8">
+            <form action="mailto:Sevenbidjed@gmail.com" method="POST" encType="text/plain" className="space-y-8">
               <div className="space-y-2">
                 <label htmlFor="name" className="text-[10px] tracking-[0.2em] text-brand-gold uppercase">Name</label>
                 <input 

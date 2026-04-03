@@ -14,7 +14,7 @@ export default function Footer() {
             <a href="#work" className="hover:text-brand-gold transition-colors">Experience</a>
             <a href="#booking" className="hover:text-brand-gold transition-colors">Book</a>
             <a href="https://www.instagram.com/bidjed_belmeliani/" target="_blank" rel="noreferrer" className="hover:text-brand-gold transition-colors">Instagram</a>
-            <a href="mailto:bidjedbelmeliani@gmail.com" className="hover:text-brand-gold transition-colors">Email</a>
+            <a href="mailto:Sevenbidjed@gmail.com" className="hover:text-brand-gold transition-colors">Email</a>
           </div>
         </div>
 
