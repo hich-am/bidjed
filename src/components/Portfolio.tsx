@@ -3,12 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 //
 const portfolioImages = [
-  { id: 1, src: "/IMG_2587.JPG.jpeg", aspect: "aspect-[2/4]" },
-  { id: 2, src: "/IMG_0388.PNG", aspect: "aspect-square" },
-  { id: 3, src: "/IMG_0326.JPG.jpeg", aspect: "aspect-[3/4]" },
+  //IMG_2487.JPG
   { id: 4, src: "/IMG_0315.JPG.jpeg", aspect: "aspect-[3/4]" },
   { id: 5, src: "/IMG_4914.JPG.jpeg", aspect: "aspect-[3/4]" },
-  { id: 6, src: "/IMG_3451.JPG.jpeg", aspect: "aspect-[3/4]" },
+  { id: 6, src: "/IMG_2587.JPG.jpeg", aspect: "aspect-[3/4]" },
+  { id: 1, src: "/IMG_2487.JPG.jpeg", aspect: "aspect-[2/4]" },
+  { id: 2, src: "/IMG_1436.JPEG", aspect: "aspect-square" },
+  { id: 3, src: "/IMG_0326.JPG.jpeg", aspect: "aspect-[3/4]" },
   { id: 7, src: "/IMG_0311.JPG.jpeg", aspect: "aspect-[3/4]", position: "object-top" },
   { id: 8, src: "/IMG_3452.JPG.jpeg", aspect: "aspect-square" },
   { id: 9, src: "/IMG_1561.JPG.jpeg", aspect: "aspect-square" },
